@@ -1,0 +1,4 @@
+Сравнение версий android http://developer.android.com/intl/ru/about/dashboards/index.html
+Макеты http://developer.android.com/intl/ru/guide/topics/ui/declaring-layout.html
+Тестирование приложений https://io2015codelabs.appspot.com/codelabs/android-studio-testing#1
+Пример приложения отслеживания расстояния http://blogoscoped.com/archive/2007-11-19-n27.html
