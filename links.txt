@@ -1,3 +1,5 @@
 http://metanit.com/java/android/
 http://www.intuit.ru/studies/courses/12643/1191/info
 http://labs.udacity.com/android-visualizer/#/android/sandbox - testing UI
+https://github.com/codepath/android_guides/wiki - хорошая подборка по Android
+http://www.fandroid.info
