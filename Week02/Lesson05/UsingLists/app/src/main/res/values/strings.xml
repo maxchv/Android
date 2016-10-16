@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UsingLists</string>
+    <string-array name="mobile_os">
+        <item>Android</item>
+        <item>IPhone"</item>
+        <item>WindowsMobile</item>
+        <item>Blackberry</item>
+        <item>WebOS</item>
+        <item>Ubuntu</item>
+        <item>Windows7</item>
+        <item>Max OS X</item>
+        <item>FireFox OS</item>
+    </string-array>
+</resources>
