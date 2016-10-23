@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/menu_open"
+          android:id="@+id/menu_settings"
+          android:icon="@android:drawable/ic_menu_manage"
+          app:showAsAction="ifRoom">
+
+    </item>
+
+    <item android:title="@string/menu_open"
+          android:id="@+id/menu_open"
+          android:icon="@android:drawable/ic_menu_save"
+          app:showAsAction="ifRoom">
+
+    </item>
+    <group android:id="@+id/group_menu"
+        android:checkableBehavior="single"
+        >
+    <item android:title="@string/menu_save"
+          android:id="@+id/menu_save"
+          android:icon="@android:drawable/ic_menu_save"
+          app:showAsAction="ifRoom">
+
+    </item>
+
+    </group>
+    <item android:title="@string/menu_exit"
+          android:id="@+id/menu_exit"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          app:showAsAction="withText">
+
+    </item>
+</menu>

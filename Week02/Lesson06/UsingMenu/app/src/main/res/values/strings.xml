@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UsingMenu</string>
+    <string name="menu_open">Open</string>
+    <string name="program_menu">Program menu</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_exit">Exit</string>
+    <string name="using_xml_file">Using XML file</string>
+    <string name="context_menu">Context menu</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="popup_menu">Popup Menu</string>
+    <string name="group_menu">Group Menu</string>
+</resources>

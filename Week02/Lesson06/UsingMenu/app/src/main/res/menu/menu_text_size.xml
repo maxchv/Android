@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Font size 22pt"
+        android:id="@+id/menu_font_size_22"
+        />
+    <item android:title="Font size 24pt"
+          android:id="@+id/menu_font_size_24"
+        />
+    <item android:title="Font size 26pt"
+          android:id="@+id/menu_font_size_26"
+        />
+    <item android:title="Font size 28pt"
+          android:id="@+id/menu_font_size_28"
+        />
+</menu>
