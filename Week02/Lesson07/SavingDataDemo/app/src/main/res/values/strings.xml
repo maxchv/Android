@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SavingDataDemo</string>
+    <string name="shared_preferances">Shared preferences</string>
+    <string name="files">Files</string>
+    <string name="store_in_database">Store in SQLite</string>
+    <string name="unknown_action">Unknown action</string>
+    <string name="store">Store</string>
+    <string name="user">User</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="preference_file_key">ua.dp.itstep.shaptala.svaingdatademo.PREFRENCE_FILE_KEY</string>
+</resources>
