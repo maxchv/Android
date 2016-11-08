@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PreferenceFragments</string>
+    <string name="settings">Settings</string>
+</resources>

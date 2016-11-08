@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_fragment">DetailFragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="done">Done</string>
+</resources>
