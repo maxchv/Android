@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+                android:padding="10dp"
+             tools:context="ua.dp.itstep.addfragmentswithjava.SimpleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:background="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"/>
+
+</RelativeLayout>

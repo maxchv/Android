@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test Wifi</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button">Check</string>
+    <string name="login">Login</string>
+	<string name="login_hint">login</string>
+	<string name="password">Password</string>
+	<string name="start">Start</string>
+	<string name="status">Status</string>
+	<string name="stop">Stop</string>
+	<string name="password_hint">password</string>
+</resources>

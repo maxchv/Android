@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Android\Week02\Lesson08\BcastRecCompBcast\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="676716f54ef911899275ab3e6888a57e07293a8e">
+        <dex dex="E:\GitHub\Android\Week02\Lesson08\BcastRecCompBcast\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3d65f47eb2fb80ec76c78b08ed75c2f3eae30bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Android\Week02\Lesson08\BcastRecCompBcast\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c84b6619cb52b6d80adf836b0ba5f4fd04508426">
+        <dex dex="E:\GitHub\Android\Week02\Lesson08\BcastRecCompBcast\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_643a20c636475e31fd8473b76d3b6703b78c6194\classes.dex" />
+    </item>
+
+</items>

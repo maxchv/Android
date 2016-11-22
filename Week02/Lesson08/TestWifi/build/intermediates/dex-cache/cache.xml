@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0eb63308688e1266dae882f2d736a0520b983c4">
+        <dex dex="E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_890a313ac9eab401892877cbbbf4e259b9104e69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb6a901cb7eacc4f844507b2fbd26a7f69320e97">
+        <dex dex="E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e3deb64e7cc532b76f9e04741b4cafcfd975cafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\max\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_47cbc642200a53d087f14100f728597821d6a503\classes.dex" />
+    </item>
+
+</items>
