@@ -5,3 +5,6 @@ https://github.com/codepath/android_guides/wiki - хорошая подборка по Android
 http://www.fandroid.info
 
 great tutorials https://guides.codepath.com/android/
+
+XML Layout Code
+http://labs.udacity.com/android-visualizer/#/android/simple-imageview
