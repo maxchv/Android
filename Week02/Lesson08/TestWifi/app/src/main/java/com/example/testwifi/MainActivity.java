@@ -19,13 +19,12 @@ public class MainActivity extends Activity {
 	
 	String login;
 	String password;
-	WifiReceiver wifiReciver;
+	//WifiReceiver wifiReciver;
     
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
         Log.d(tag, "Start activity");
     }
 
@@ -41,20 +40,22 @@ public class MainActivity extends Activity {
      */
     public void onClickStart(View view) {    	
     	Log.d(tag, "onClickStart");
-        final IntentFilter filters = new IntentFilter();
-        filters.addAction("android.net.wifi.WIFI_STATE_CHANGED");
-        filters.addAction("android.net.wifi.STATE_CHANGE");
-        filters.addAction("android.net.conn.CONNECTIVITY_CHANGE");
-        filters.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
+//        final IntentFilter filters = new IntentFilter();
+//        filters.addAction("android.net.wifi.WIFI_STATE_CHANGED");
+//        filters.addAction("android.net.wifi.STATE_CHANGE");
+//        filters.addAction("android.net.conn.CONNECTIVITY_CHANGE");
+//        filters.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
+//
+//        wifiReciver = new WifiReceiver();
         
-        wifiReciver = new WifiReceiver();
-        
-        registerReceiver(wifiReciver, filters);
+//        registerReceiver(wifiReciver, filters);
     	EditText etLogin = (EditText) findViewById(R.id.etLogin);
     	EditText etPassword = (EditText) findViewById(R.id.etPassword);
     	
     	login = etLogin.getText().toString();
     	password = etPassword.getText().toString();
+
+
     }
     
     /**
@@ -62,9 +63,9 @@ public class MainActivity extends Activity {
      */
     public void onClickStop(View view) {    	
     	Log.d(tag, "onClickStop");
-    	if (wifiReciver != null) {
-    		unregisterReceiver(wifiReciver);
-    	}
+//    	if (wifiReciver != null) {
+//    		unregisterReceiver(wifiReciver);
+//    	}
     }
     
     /**
@@ -77,18 +78,18 @@ public class MainActivity extends Activity {
     @Override
     protected void onPause() {
     	// TODO Auto-generated method stub
-    	if (wifiReciver != null) {
-    		unregisterReceiver(wifiReciver);
-    	}
+//        if (wifiReciver != null) {
+//    		unregisterReceiver(wifiReciver);
+//    	}
     	super.onPause();
     }
     
     @Override
     protected void onDestroy() {
     	// TODO Auto-generated method stub
-    	if (wifiReciver != null) {
-    		unregisterReceiver(wifiReciver);
-    	}
+//    	if (wifiReciver != null) {
+//    		unregisterReceiver(wifiReciver);
+//    	}
     	super.onDestroy();
     }
     

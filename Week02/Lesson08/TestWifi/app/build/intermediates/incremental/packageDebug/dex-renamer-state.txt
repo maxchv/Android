@@ -1,7 +1,0 @@
-#Wed Nov 16 23:27:29 EET 2016
-base.0=E\:\\GitHub\\Android\\Week02\\Lesson08\\TestWifi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e3deb64e7cc532b76f9e04741b4cafcfd975cafd
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=E\:\\GitHub\\Android\\Week02\\Lesson08\\TestWifi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_890a313ac9eab401892877cbbbf4e259b9104e69\\classes.dex
-base.1=E\:\\GitHub\\Android\\Week02\\Lesson08\\TestWifi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_890a313ac9eab401892877cbbbf4e259b9104e69
-file.0=E\:\\GitHub\\Android\\Week02\\Lesson08\\TestWifi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e3deb64e7cc532b76f9e04741b4cafcfd975cafd\\classes.dex

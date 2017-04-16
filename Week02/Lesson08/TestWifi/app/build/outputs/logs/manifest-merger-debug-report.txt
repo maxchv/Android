@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
@@ -15,47 +15,87 @@ ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManife
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:9:2-75
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:9:19-73
+application
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:11:5-33:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.testwifi.MainActivity
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:17:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:22:27-74
+receiver#com.example.testwifi.WifiReceiver
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:26:9-32:17
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:26:19-67
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.STATE_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:27:10-31:26
+action#android.net.wifi.STATE_CHANGE
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:28:14-69
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:28:22-66
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:29:14-76
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:29:22-73
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:30:14-75
+	android:name
+		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:30:22-72
 uses-sdk
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] E:\GitHub\Android\Week02\Lesson08\TestWifi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:8:9-34
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
 		INJECTED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:11:5-75
-	android:name
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:11:22-73
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:12:2-75
-	android:name
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:12:19-73
-application
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:14:5-36:19
-	android:label
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:17:9-41
-	android:allowBackup
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:15:9-35
-	android:icon
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:16:9-45
-	android:theme
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:18:9-40
-activity#com.example.testwifi.MainActivity
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:19:9-27:20
-	android:label
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:21:13-45
-	android:name
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:20:13-61
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:22:13-26:29
-action#android.intent.action.MAIN
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:23:17-69
-	android:name
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:23:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from E:\GitHub\Android\Week02\Lesson08\TestWifi\app\src\main\AndroidManifest.xml:25:27-74

@@ -5,9 +5,10 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="17"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -26,15 +27,13 @@
             </intent-filter>
         </activity>
 
-        <!--
-        receiver android:name="com.example.testwifi.WifiReceiver" >
-	        <intent-filter android:priority="100">
-	            <action android:name="android.net.wifi.STATE_CHANGE" />
-	            <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-	            <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-	        </intent-filter>
-    	</receiver
-        -->
+        <receiver android:name="com.example.testwifi.WifiReceiver" >
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
