@@ -1,0 +1,14 @@
+Написать приложение под android предназначенное для рассчета
+плотности пикселей на дюйм экрана устройства.
+
+Создать активность с вертикальным LinearLayout в который поместить
+четыре TextView и три EditView, один Button.
+
+В TextView поместить текст: Размер экрана, пикселей по горизонтали,
+пикселей по вертикали.
+
+При клике по Button выполняется рассчет и выводится информация о 
+плотности (dpi), а также название (ldpi, mdpi, hdpi, xhdpi, xxhdpi или xxxhdpi)
+в соответсвии с https://developer.android.com/guide/practices/screens_support.html#range
+
+Также вывести название размера экрана (small, normal, large, and xlarge)
