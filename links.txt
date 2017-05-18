@@ -4,7 +4,10 @@ http://labs.udacity.com/android-visualizer/#/android/sandbox - testing UI
 https://github.com/codepath/android_guides/wiki - õîðîøàÿ ïîäáîðêà ïî Android
 http://www.fandroid.info
 https://www.eecis.udel.edu/~bohacek/MobileComputing/Android/MobileComputing2012.html
+
 great tutorials https://guides.codepath.com/android/
 
 XML Layout Code
 http://labs.udacity.com/android-visualizer/#/android/simple-imageview
+
+presentations: https://www.cs.utexas.edu/~scottm/cs378/Handouts/Slides/
