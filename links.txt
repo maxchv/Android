@@ -11,3 +11,4 @@ XML Layout Code
 http://labs.udacity.com/android-visualizer/#/android/simple-imageview
 
 presentations: https://www.cs.utexas.edu/~scottm/cs378/Handouts/Slides/
+               https://www.cs.utexas.edu/~scottm/cs371m/schedule.htm
