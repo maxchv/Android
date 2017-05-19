@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Button mButtonSingleChoiceList;
     Button mButtonMultiChoiceList;
     Button mButtonCustomList;
+    Button mButtonRecyclerView;
 
 
     @Override
@@ -72,6 +73,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CustomListActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        mButtonRecyclerView = (Button) findViewById(R.id.button_recycler_view);
+        mButtonRecyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, RecicleViewDemo.class));
             }
         });
     }

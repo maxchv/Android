@@ -27,6 +27,8 @@
         </activity>
         <activity android:name=".InflateLayoutActivity">
         </activity>
+        <activity android:name=".RecicleViewDemo">
+        </activity>
     </application>
 
 </manifest>

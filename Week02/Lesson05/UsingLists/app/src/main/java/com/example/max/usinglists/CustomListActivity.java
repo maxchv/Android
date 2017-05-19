@@ -19,7 +19,7 @@ public class CustomListActivity extends AppCompatActivity {
         ArrayList<User> users = new ArrayList<>();
         users.add(new User("Max", "Dnepropetrovsk"));
         users.add(new User("Anna", "Dnepropetrovsk"));
-        UsersAdapter adapter = new UsersAdapter(this, users);
+        UsersAdapterListView adapter = new UsersAdapterListView(this, users);
 
         mListViewCustom.setAdapter(adapter);
     }
