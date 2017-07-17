@@ -1,0 +1,16 @@
+В приложении использовать следующие виджеты:
+CheckBox (Флажок)
+
+RadioButton (Переключатель)
+
+Spinner (Выпадающий список)
+
+ProgressBar (Large, Normal, Small, Horizontal) - индикаторы прогресса
+
+SeekBar (Ползунок)
+
+RatingBar (Рейтинг)
+
+Switch (Переключатель с текстом)
+
+ImageButton

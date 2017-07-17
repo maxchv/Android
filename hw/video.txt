@@ -1,0 +1,106 @@
+----------
+20.10.2016
+----------
+
+GridLayout	https://youtu.be/ZU5LqjrBHUU
+
+----------
+25.10.2016
+----------
+
+ListView	https://youtu.be/7CmKiNIxOsI
+
+----------
+26.10.2016
+----------
+
+CustomList	https://youtu.be/enuPa63Tp3Q
+
+----------
+27.10.2016
+----------
+
+Menu		https://youtu.be/8VOJvZH8kEk
+Intent		https://youtu.be/3oIvPpt7kh4
+
+----------
+31.10.2016
+----------
+
+SaveState	https://youtu.be/zQMzk7OoLQg
+
+----------
+01.11.2016
+----------
+
+Internal Files https://youtu.be/oScf4gF5T78
+
+----------
+02.11.2016
+----------
+
+External Storage https://youtu.be/VK6m9Klbqz4
+
+----------
+03.11.2016
+----------
+
+WebViewImpliciteActivity	https://youtu.be/hBVBgs-GRPw
+Regex				https://youtu.be/JXe3gfNaVIo
+AsyncTask			https://youtu.be/l8tMhejpeZc
+
+----------
+07.11.2016
+----------
+
+SqLite				https://youtu.be/OcREbOKhYaY
+
+----------
+08.11.2016
+----------
+
+FragmentsIntro			https://youtu.be/Cc20wC1XQlo
+SugarORM			https://youtu.be/KGO3adG38OU
+
+----------
+09.11.2016
+----------
+
+Fragments			https://youtu.be/k5vCsDzxO0E
+
+----------
+10.11.2016
+----------
+
+dialogs				https://youtu.be/W2UHhAhNQkQ
+
+----------
+14.11.2016
+----------
+
+ViewPager		https://youtu.be/S8GFtLwt-vY
+
+----------
+15.11.2016
+----------
+
+animations		https://youtu.be/h8ff01JREww
+
+----------
+17.11.2016
+----------
+
+BroadcastRecevier	https://youtu.be/-smTJOTjSIA
+
+----------
+22.11.2016
+----------
+
+Contacts		https://youtu.be/x976Cz5kZZA
+
+----------
+23.11.2016
+----------
+
+SpeechRecord		https://youtu.be/xQeoPfCI9q8
+VideoView		https://youtu.be/xGHDVVpUduA

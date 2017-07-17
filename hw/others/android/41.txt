@@ -1,0 +1,4 @@
+В одном приложении объединить:
+1. Options Menu
+2. Context Menu
+3. Popup Menu

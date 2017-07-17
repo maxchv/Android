@@ -1,0 +1,17 @@
+Создаём собственную коллекцию:
+
+Обязательные методы:
+10 баллов:
+print();
+add(T newValue); - добавляет в конец
+
+11 баллов:
+add(T newValue);
+getPosition();
+delete(); - удаляет с конца
+
+getPosition(int position);
+delete(); - по любой позиции;
+add(T newValue);
+
+

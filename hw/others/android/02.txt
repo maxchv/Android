@@ -1,0 +1,2 @@
+1. Установить Android Studio и Genymotion на своём компьютере.
+2. Создать Activity (экран) с view-элементами
