@@ -1,0 +1,7 @@
+[18.07.2017]
+View, ViewGroup, FrameLayout	
+	https://youtu.be/mqCkdvSgBYc
+
+[20.07.2017]
+LinearLayout	
+	https://youtu.be/oN88uCxT5kc

@@ -1,3 +1,0 @@
-[18.07.2017]
-View, ViewGroup, FrameLayout	
-	https://youtu.be/mqCkdvSgBYc
