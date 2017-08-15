@@ -5,3 +5,10 @@ View, ViewGroup, FrameLayout
 [20.07.2017]
 LinearLayout	
 	https://youtu.be/oN88uCxT5kc
+
+
+[15.08.2017]
+TableLayout
+	https://youtu.be/BKorLk96JO8
+CompoundButton
+	https://youtu.be/tZ7xWStTomw
