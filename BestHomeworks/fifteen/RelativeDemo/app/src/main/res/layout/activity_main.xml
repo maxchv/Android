@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smkapps.relativedemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="red"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:background="#ff0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:padding="25dp"
+        android:text="orange"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFA500"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:textColor="#000000"
+        android:text="yellow"
+        android:textAllCaps="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffff00"/>
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_centerInParent="true"
+        android:text="blue"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:background="#0000ff"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="green"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_centerVertical="true"
+        android:background="#00ff00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="indigo"
+        android:textAllCaps="true"
+        android:layout_toRightOf="@id/blue"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:background="#4B0082"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#EE82EE"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="violet"
+        android:textAllCaps="true"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>
