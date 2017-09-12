@@ -1,0 +1,11 @@
+Видео: 	AutoCompleteTextView https://youtu.be/pkMlQ9wNccg
+	debug	https://youtu.be/-HICSpUFaK0
+	spinner	https://youtu.be/7iRdP5JGqJM
+
+Создать приложени в котором разместить два поля ввода и кнопку.
+
+Поле EditText позовляет пользователю ввести любое слово,
+которое добавляется в список words после клика по кнопке Button.
+
+Поле AutoCompleteTextView использует список words для дополнения
+слов вводимых пользователем.
