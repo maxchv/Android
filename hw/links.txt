@@ -1,0 +1,3 @@
+https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/
+https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-concepts/content/
+https://google-developer-training.gitbooks.io/android-developer-phone-sms-course/content/
