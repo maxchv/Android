@@ -1,0 +1,78 @@
+PoductID:	shirt101
+Name:		Cross-back training tank
+Description:	Our cross-back training tank is made from organic cotton with 10% Lycra for form and support, and a flattering feminine cut.
+Price:		35
+
+
+PoductID:	jacket101
+Name:		Bamboo thermal ski coat
+Description:	You?l be the most environmentally conscious skier on the slopes - and the most stylish - wearing our fitted bamboo thermal ski coat, made from organic bamboo with recycled plastic down filling.
+Price:		128
+
+
+PoductID:	pants101
+Name:		Stretchy dance pants
+Description:	Whether dancing the samba, mastering a yoga pose, or scaling the climbing wall, our stretchy dance pants, made from 80% organic cotton and 20% Lycra, are the most versatile and comfortable workout pants you?l ever have the pleasure of wearing.
+Price:		85
+
+
+PoductID:	shirt102
+Name:		Ultra-soft tank top
+Description:	This versatile tank can be worn in the gym, under a blazer, or for a day out in the sun. Made from our patented organic bamboo and cotton mix, our ultra-soft tank never stops feeling soft, even when you forget the fabric softener.
+Price:		23
+
+
+PoductID:	shirt103
+Name:		V-neck t-shirt
+Description:	Our pre-shrunk organic cotton t-shirt, with its slightly fitted waist and elegant V-neck is designed to flatter. You?l want one in every color!
+Price:		26
+
+
+PoductID:	sweater101
+Name:		V-neck sweater
+Description:	This medium-weight sweater, made from organic knitted cotton and bamboo, is the perfect solution to a chilly night at the campground or a misty walk on the beach.
+Price:		65
+
+
+PoductID:	shirt104
+Name:		Polo shirt
+Description:	Our pre-shrunk organic cotton polo shirt is perfect for weekend activities, lounging around the house, and casual days at the office. With its triple-stitched sleeves and waistband, our polo has maximum durability.
+Price:		38
+
+
+PoductID:	shirt105
+Name:		Skater graphic T-shirt\n
+Description:	Hip at the skate park or around down, our pre-shrunk organic cotton graphic T-shirt has you covered.
+Price:		45
+
+
+PoductID:	jacket102
+Name:		Thermal fleece jacket
+Description:	Our thermal organic fleece jacket, is brushed on both sides for ultra softness and warmth. This medium-weight jacket is versatile all year around, and can be worn with layers for the winter season.
+Price:		85
+
+
+PoductID:	shirt106
+Name:		V-neck pullover
+Description:	This organic hemp jersey pullover is perfect in a pinch. Wear for casual days at the office, a game of hoops after work, or running your weekend errands.
+Price:		35
+
+
+PoductID:	shirt107
+Name:		V-neck T-shirt
+Description:	Our pre-shrunk organic cotton V-neck T-shirt is the ultimate in comfort and durability, with triple stitching at the collar, sleeves, and waist. So versatile you?l want one in every color!
+Price:		28
+
+
+PoductID:	pants102
+Name:		Grunge skater jeans
+Description:	Our boy-cut jeans are for men and women who appreciate that skate park fashions aren? just for skaters. Made from the softest and most flexible organic cotton denim.
+Price:		75
+
+
+PoductID:	vest101
+Name:		Thermal vest
+Description:	Our thermal vest, made from organic bamboo with recycled plastic down filling, is a favorite of both men and women. You?l help the environment, and have a wear-easy piece for many occasions.
+Price:		95
+
+

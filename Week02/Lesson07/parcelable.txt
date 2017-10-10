@@ -1,0 +1,2 @@
+Сравнение Parcelable и Serializable: https://habrahabr.ru/post/174015/
+Плагин для AndroidStudio: https://plugins.jetbrains.com/plugin/7332-android-parcelable-code-generator
