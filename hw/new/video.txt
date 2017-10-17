@@ -20,3 +20,10 @@ SeekBar & RatingBar
 [28.09.2017]
 AertDialog
 	https://youtu.be/y2JZ8OdXH88
+
+[12.10.2017]
+RecyclerView 
+	https://youtu.be/k3QjrXBLazo
+
+ViewHolder and Parcelable
+	https://youtu.be/1JAs9XtPpHA
