@@ -1,0 +1,9 @@
+Видео: https://youtu.be/hz8T4unOqqs
+
+Создать четыре кнопки нестандартной формы как представлено
+на картинке hw21.gif
+
+Дополнительные ссылки:
+
+http://idunnolol.com/android/drawables.html#shape
+http://angrytools.com/android/button/
