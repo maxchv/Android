@@ -1,0 +1,7 @@
+видео: 	https://youtu.be/GCjvzckzNJo
+	https://youtu.be/VO1_bGOODGU
+
+Создать приложение с четырмя кнопками, как показано в hw22.gif.
+
+Реализовать эффекты анимации при помощи View animation (https://developer.android.com/guide/topics/graphics/view-animation.html)
+ и ViewPropertyAnimator (https://developer.android.com/reference/android/view/ViewPropertyAnimator.html).
