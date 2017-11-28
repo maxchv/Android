@@ -1,0 +1,4 @@
+Изучить утилитный класс ItemTouchHelper который предназначены для упрощения
+реагирования на события swipe в ReciclerView.
+
+https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.html
