@@ -1,0 +1,13 @@
+Видео: https://youtu.be/aFM1anhWKy4
+
+Написать приложение для отображения текущей погоды в г. Днепр.
+Источником данных взять: https://api.darksky.net/forecast/00ce670b3742a599df4c805e00fb6876/48.4695846,35.0133742?lang=ru&units=si&exclude=minutely,hourly,daily,alerts,flags
+
+В приложении необходимо отображать:
+	Краткое описание: summary
+	Темепературу: temperature
+	Влажность: humidity
+	Давление: pressure
+	Скорость ветра: windSpeed
+
+Для разбора json достаточно использовать методы строк. 

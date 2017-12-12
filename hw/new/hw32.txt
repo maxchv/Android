@@ -1,0 +1,78 @@
+видео: https://youtu.be/tPxKn4DCnbM
+
+Написать программу для "взлома" пароля зашифрованного алгоритмом md5.
+Известно, что пароль состоит из 4 символов (цифр, прописных и строчных букв латинского алфавита).
+
+пример приложения: https://play.google.com/store/apps/details?id=dom.ultradecrypter.pro
+
+Часть функций, которые могуть быть полезны при решении задачи.
+
+Предусмотреть в интерфейса отображение прогресс-бар для отображения хода выполнения задачи.
+Для сохранения отзывчивости графического интерфейса запускать перебор паролей в отдельном потоке.
+Рекомендуется использовать AsyncTask.
+
+Дополнительное задание:
+	1. Добавить несколько рабочих потоков для ускорения решения задачи
+	2. Добавить возможность подбора паролей разной длины
+	3. Добавить возможность подбора пароля в котором могут присутсвовать другие символы: знаки препинания, специальные символы представленные на клавиатуре компьютера.
+
+static final int NUMBERS_COUNT = 10;
+static final int LATIN_CHARS_COUNT = 26;
+char[] symbols = new char[NUMBERS_COUNT + LATIN_CHARS_COUNT *2];
+
+private void initPossibleSymbols() {
+        char start = '0';
+        int i;
+        for (i = 0; i < NUMBERS_COUNT; i++) {
+            symbols[i] = (char) (start + i);
+        }
+        start = 'a';
+        for (; i < NUMBERS_COUNT + LATIN_CHARS_COUNT; i++) {
+            symbols[i] = (char) (start + i - NUMBERS_COUNT);
+        }
+        start = 'A';
+        for (; i < symbols.length; i++) {
+            symbols[i] = (char) (start + i - NUMBERS_COUNT - LATIN_CHARS_COUNT);
+        }
+        Log.i(TAG, "generatePasswords: symbols " + Arrays.toString(symbols));
+}
+
+public void generatePasswords(int length) {
+        char[] password = new char[length];
+        generatePassword(password, 0);
+        Log.i(TAG, "generatePasswords: count " + count);
+    }
+
+public void generatePassword(char[] password, int number) {
+        for (char symbol : symbols) {
+            password[number] = symbol;
+            if (number < password.length - 1) {
+                generatePassword(password, number + 1);
+            }
+
+            // TODO: здесь новый пароль
+            // Сгенерировать новый хеш и сравнить с хешом искомого пароля
+
+             Log.i(TAG, "password " + new String(password));
+        }
+    }
+
+public static String getMd5Hash(String input) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            byte[] messageDigest = md.digest(input.getBytes());
+            BigInteger number = new BigInteger(1, messageDigest);
+            String md5 = number.toString(16);
+
+            while (md5.length() < 32)
+                md5 = "0" + md5;
+
+            return md5;
+        } catch (NoSuchAlgorithmException e) {
+            Log.e("MD5", e.getLocalizedMessage());
+            return null;
+        }
+    }
+
+4 symbols 0-9, a-z, A-Z
+password hash: d52387880e1ea22817a72d3759213819
