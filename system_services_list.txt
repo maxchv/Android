@@ -1,0 +1,110 @@
+source: http://www.programering.com/a/MjN2QzMwATM.html
+
+1.AccountManagerService
+Android account service, provides centralized management of accounts, passwords, authorization.
+2.AccessibilityManagerService
+Assistant manager to intercept all user input, and according to the input to the user some additional feedback, has auxiliary effect, click, focus events such as the View distribution management service.
+3.ActivityManagerService
+Android framework core framework service, task, process management of the whole framework, the core Intent parser implementation, management of the four building life cycle.
+4.AlarmManagerService
+Provide the alarm and timer function.
+5.AppWidgetService
+Provide Widget management and related services in Android
+6.AssetAtlasService
+Responsible for the pre loaded bitmap assembled texture mapping, texture map generation can be used to cross process, in order to reduce the memory.
+7.AudioService
+Upper management AudioFlinger package, mainly is the volume, sound, sound and tone management etc.
+8.BackupManagerService
+Backup service.
+9.BatteryService
+The state of charge, battery power, voltage, temperature and other information is responsible for monitoring the battery when the battery information, change occurs, progression and service announcement to other cell information.
+10.BluetoothManagerService
+Responsible for the management and service of Bluetooth.
+11.ClipboardService
+The clipboard service.
+12.CommonTimeManagementService
+The management of the local common time service configuration, the local service reconfiguration in the change of network configuration.
+13.ConnectivityService
+The state of the network connection service.
+14.ContentService
+Content services, mainly database solution service.
+15.ConsumerIrService
+Remote control, infrared control through the surrounding equipment (such as TV etc.)
+16.CountryDetectorService
+Detection of user countries
+17.DevicePolicyManagerService
+Provide the settings and properties of some system level
+18.DiskStatsService
+Disk statistics service, for the use of dumpsys
+19.DisplayManagerService
+For the management of global display life cycle, decided in the physical device connected to the configuration logic display, and notification system and application status change.
+20.DreamManagerService
+Screen saver.
+21.DropBoxManagerService
+For system operation log storage management.
+22.IdleMaintenanceService
+To observe the status of equipment, perform maintenance tasks on the device is idle. Will some of the more time-consuming expensive mission on the device is idle, so that the user experience.
+23.InputManagerService
+In WindowManagerService before, are now independent, user processing event distribution.
+24.InputMethodManagerService
+The input method service, open and close the input method.
+25.LightsService
+Optical sensor service.
+26.LocationManagerService
+Location services, GPS, location etc.
+27.LockSettingsService
+Enter the password and the lock screen interface, gestures and other security functions. Lock screen information can be saved for each user.
+28.WallpaperManagerService
+Wallpaper management service.
+29.MountService
+Disk loading service program, generally and a Linux daemon program such as vold/mountd cooperative work, is mainly responsible for monitoring and broadcast device mount/unmount/badremoval events.
+30.NetworkManagementService
+Network management services. ANDROID Network connection and management service by four system serviceConnectivityService, NetworkPolicyManagerService, NetworkManagementService, NetworkStatsServiceTogether with the completion of network connection and management functions. ConnectivityService, NetworkPolicyManagerService, NetworkStatsServiceThree services byINetworkManagementServiceThe process of cross access interfaceNetworkManagementServiceService, Interaction and information and network interface to read.
+31.NetworkPolicyManagerService
+The maintenance of the network using the strategy.
+32.NetworkStatsService
+Network statistics.
+33.NetworkTimeUpdateService
+Time monitoring network, update the local time when the network time.
+34.NotificationManagerService
+Notification service.
+35.NsdService
+Network service search
+36.PackageManagerService
+Android framework core framework service, for APK analysis, authorization, installation.
+37.PrintManagerService
+Printing service.
+38.PowerManagerService
+Power management service.
+39.RecognitionManagerService
+Identity recognition.
+40.SamplingProfilerService
+For time statistics.
+41.SearchManagerService
+Search service.
+42.SchedulingPolicyService
+Scheduling strategy.
+43.SerialService
+Operation on the serial port equipment
+44.StatusBarManagerService
+The status bar.
+45.TelephonyRegistry
+Provide telephone registration, management services, can get phone link state, signal strength etc.
+46.TextServicesManagerService
+Text services, such as text check etc.
+47.TwilightService
+Indicates that the user current location is the night, UiModeManager, is used to adjust the night mode.
+48.UiModeManagerService
+Management of current Android equipment night mode and running mode.
+49.UsbService
+USB Host and the device management service.
+50.VibratorService
+Vibrator service.
+51.WifiP2pService
+The Wifi Direct service.
+52.WifiService
+The Wifi service.
+53.WindowManagerService
+Android framework core framework service, window management service.
+54.WiredAccessoryManager
+Monitor the mobile phone and the base.
