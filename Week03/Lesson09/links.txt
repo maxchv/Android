@@ -1,0 +1,1 @@
+https://developer.android.com/training/monitoring-device-state/battery-monitoring.html
