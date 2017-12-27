@@ -1,0 +1,43 @@
+Ќаписать приложение дл€ отслеживани€ текущего курса биткоина по отношению к евро и доллару —Ўј.
+»сточник информации: https://api.coindesk.com/v1/bpi/currentprice.json
+
+“ребовани€:
+ѕри запуске приложени€ загружаетс€ текущий курс биткоин и сохран€етс€ в файле во внутреннем хранилище.
+≈сли приложение в этот день уже запускалось и был получен курс ранее, то загрузка не производитс€.
+»з внутреннего хранилища считываетс€ файл с сохраненными ранее данными по курсу биткони.
+¬ активность необходимо вывести RecyclerView с датой, курсом к доллару, курсом к евро.
+
+ѕример json:
+
+{
+	"time": {
+		"updated":"Dec 27, 2017 18:46:00 UTC",
+		"updatedISO":"2017-12-27T18:46:00+00:00",
+		"updateduk":"Dec 27, 2017 at 18:46 GMT"
+	},
+	"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org",
+	"chartName":"Bitcoin",
+	"bpi": {
+		"USD": {
+			"code":"USD",
+			"symbol":"&#36;",
+			"rate":"15,012.9213",
+			"description":"United States Dollar",
+			"rate_float":15012.9213       <-------- курс по отношению к доллару
+		},
+		"GBP": {
+			"code":"GBP",
+			"symbol":"&pound;",
+			"rate":"11,205.4793",
+			"description":"British Pound Sterling","rate_float":11205.4793
+               	},
+		"EUR": {
+			"code":"EUR",		      <-------- курс по отношению к евро
+			"symbol":"&euro;",
+			"rate":"12,616.9041",
+			"description":"Euro",
+			"rate_float":12616.9041
+	        }
+	}
+}
+
