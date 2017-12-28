@@ -1,4 +1,12 @@
-Написать приложение для отслеживания текущего курса биткоина по отношению к евро и доллару США.
+Видео: https://youtu.be/6gV5guOI_ms
+
+Задание:
+
+1. Изучить тему символьные потоки (Reader, Writer и т.д.) по презентации.
+
+2. Изучить тему сохранение данных во внешнем хранилище по ссылке: https://developer.android.com/training/basics/data-storage/files.html?hl=ru
+
+3. Написать приложение для отслеживания текущего курса биткоина по отношению к евро и доллару США.
 Источник информации: https://api.coindesk.com/v1/bpi/currentprice.json
 
 Требования:
@@ -8,7 +16,6 @@
 В активность необходимо вывести RecyclerView с датой, курсом к доллару, курсом к евро.
 
 Пример json:
-
 {
 	"time": {
 		"updated":"Dec 27, 2017 18:46:00 UTC",
@@ -29,14 +36,15 @@
 			"code":"GBP",
 			"symbol":"&pound;",
 			"rate":"11,205.4793",
-			"description":"British Pound Sterling","rate_float":11205.4793
+			"description":"British Pound Sterling",
+		                       "rate_float":11205.4793
                	},
 		"EUR": {
-			"code":"EUR",		      <-------- курс по отношению к евро
+			"code":"EUR",		      
 			"symbol":"&euro;",
 			"rate":"12,616.9041",
 			"description":"Euro",
-			"rate_float":12616.9041
+			"rate_float":12616.9041	<-------- курс по отношению к евро
 	        }
 	}
 }

@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:3:11-45
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\6ea2c777a8eee857335aae553fdaa78d75ceedf5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\cb81f963e9919acaac00b643c97cd785f68b4514\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d566983acc4fea74b7142602ea1edbaafdc804cf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\ed65a702051cb58a884a8917ba45a883a189ec38\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\e09ff71a7023f776dd2262135b85eb8e9b04a329\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\520e9c5ee16806464c0c047e5389ae5e61e3b706\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\a650d3921b43cd68d0ecc44398b8bbf0b6620bc4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d1c47182dc8b4518b2adb92b013d0c75faeac073\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Solo_Family\.android\build-cache\01c2d96711458fddac44bd6f945d38d666bb8df8\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.smkapps.relativedemo.MainActivity
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\6ea2c777a8eee857335aae553fdaa78d75ceedf5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\cb81f963e9919acaac00b643c97cd785f68b4514\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d566983acc4fea74b7142602ea1edbaafdc804cf\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\ed65a702051cb58a884a8917ba45a883a189ec38\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\e09ff71a7023f776dd2262135b85eb8e9b04a329\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\520e9c5ee16806464c0c047e5389ae5e61e3b706\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\a650d3921b43cd68d0ecc44398b8bbf0b6620bc4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d1c47182dc8b4518b2adb92b013d0c75faeac073\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Solo_Family\.android\build-cache\01c2d96711458fddac44bd6f945d38d666bb8df8\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\RelativeDemo\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\6ea2c777a8eee857335aae553fdaa78d75ceedf5\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\cb81f963e9919acaac00b643c97cd785f68b4514\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d566983acc4fea74b7142602ea1edbaafdc804cf\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\ed65a702051cb58a884a8917ba45a883a189ec38\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\e09ff71a7023f776dd2262135b85eb8e9b04a329\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\520e9c5ee16806464c0c047e5389ae5e61e3b706\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\a650d3921b43cd68d0ecc44398b8bbf0b6620bc4\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\d1c47182dc8b4518b2adb92b013d0c75faeac073\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Solo_Family\.android\build-cache\3fbdb75cf572d48f62285482233ac4aeb8e6383b\output\AndroidManifest.xml:26:9-47
