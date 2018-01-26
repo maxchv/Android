@@ -1,0 +1,11 @@
+video: https://youtu.be/lEh0LYajKSw
+
+презентации: https://github.com/maxchv/itstep/blob/master/databases/presentation/01.intro.rst
+	     https://github.com/maxchv/itstep/blob/master/databases/presentation/02.IntroTables.rst
+  	     https://github.com/maxchv/itstep/blob/master/databases/presentation/03.IntroSQL.rst
+
+
+ƒомашнее задание:
+
+—оздать базу данных со структурой таблиц представленной на task02.png
+«аполнить таблицы данными (не менее 5 фильмов).
