@@ -1,0 +1,13 @@
+video: https://youtu.be/4fzAtSOa6CA
+
+«адание:
+
+»спользу€ сервис https://pokeapi.co написать приложение Pokedex for android
+представл€ющий из себ€ католог покемонов с возможностью поиска по названию или id.
+
+ќписание api: https://pokeapi.co/docsv2/#pokemon-section
+
+¬ыводить список покемонов с возможностью детального отображени€ информации (при клике):
+	Name, HP, Attack, Defence, Speed, картинка (sprites)
+
+ѕримерный вид главной активности приведен на рис. pokedex.jpg
