@@ -1,0 +1,39 @@
+video: https://raw.githubusercontent.com/maxchv/Android/master/video/video.json
+
+Домашнее задание:
+
+Написать видео плеер. Плейлист формируется из json находящегося по адресу: 
+https://raw.githubusercontent.com/maxchv/Android/master/video/video.json
+
+В json представлены видеоролики в виде массива обхектов json:
+
+[
+  { 
+    "title": "NASA 25th Anniversary Show, Segment 01",
+    "link": "http://www.ibiblio.org/openvideo/video/umd/anni001.mpg",
+    "duration": "00:00:30",
+    "language": "english",
+    "genre": "Documentary",
+    "keywords": "NASA;Space",
+    "cover": null
+  },
+  { 
+    "title": "Полный выпуск Нового Вечернего Квартала 2018 от 24 марта",
+    "link": "https://youtu.be/wQ7n4_kUCvs",
+    "duration": "01:26:28",
+    "language": "russian",
+    "genre": "Documentary",
+    "keywords": "Humor;95 квартал",
+    "cover": null
+  },
+  ...
+]
+ 
+
+Где 	title  - кратрое описание ролика
+	link - ссылка на видео
+	duration - длительность видеоролика
+	language - язык воспроизведения
+	genre - жанр
+	keywords - ключевые слова
+	cover - обложка (изображение)
