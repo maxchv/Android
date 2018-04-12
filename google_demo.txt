@@ -1,0 +1,2 @@
+ login = "asp.net.test.identity@gmail.com";
+ password = "itstep.dp.ua";
