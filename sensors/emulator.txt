@@ -1,0 +1,144 @@
+    Sensor: Name: Goldfish 3-axis Accelerometer
+    Sensor: Type: android.sensor.accelerometer
+	Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 3.0
+    Sensor: Maximum Range: 2.8
+    Sensor: Resolution: 2.480159E-4
+    Sensor: MinDelay: 10000
+-------
+    Sensor: Name: Goldfish 3-axis Gyroscope
+    Sensor: Type: android.sensor.gyroscope
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 3.0
+    Sensor: Maximum Range: 11.111111
+    Sensor: Resolution: 0.001
+	Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish 3-axis Magnetic field sensor
+	Sensor: Type: android.sensor.magnetic_field
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+	Sensor: Power: 6.7
+    Sensor: Maximum Range: 2000.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Orientation sensor
+    Sensor: Type: android.sensor.orientation
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 9.7
+    Sensor: Maximum Range: 360.0
+	Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Temperature sensor
+    Sensor: Type: android.sensor.ambient_temperature
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 0.001
+	Sensor: Maximum Range: 80.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Proximity sensor
+    Sensor: Type: android.sensor.proximity
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 20.0
+    Sensor: Maximum Range: 1.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Light sensor
+    Sensor: Type: android.sensor.light
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 20.0
+    Sensor: Maximum Range: 40000.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Pressure sensor
+    Sensor: Type: android.sensor.pressure
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+	Sensor: Power: 20.0
+    Sensor: Maximum Range: 800.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish Humidity sensor
+    Sensor: Type: android.sensor.relative_humidity
+    Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 20.0
+    Sensor: Maximum Range: 100.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Goldfish 3-axis Magnetic field sensor (uncalibrated)
+    Sensor: Type: android.sensor.magnetic_field_uncalibrated
+	Sensor: Vendor: The Android Open Source Project
+    Sensor: Version: 1
+    Sensor: Power: 6.7
+    Sensor: Maximum Range: 2000.0
+    Sensor: Resolution: 1.0
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Game Rotation Vector Sensor
+    Sensor: Type: android.sensor.game_rotation_vector
+    Sensor: Vendor: AOSP
+    Sensor: Version: 3
+    Sensor: Power: 12.7
+	Sensor: Maximum Range: 1.0
+    Sensor: Resolution: 5.9604645E-8
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: GeoMag Rotation Vector Sensor
+    Sensor: Type: android.sensor.geomagnetic_rotation_vector
+    Sensor: Vendor: AOSP
+    Sensor: Version: 3
+    Sensor: Power: 12.7
+    Sensor: Maximum Range: 1.0
+    Sensor: Resolution: 5.9604645E-8
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Gravity Sensor
+    Sensor: Type: android.sensor.gravity
+    Sensor: Vendor: AOSP
+    Sensor: Version: 3
+	Sensor: Power: 12.7
+    Sensor: Maximum Range: 19.6133
+    Sensor: Resolution: 2.480159E-4
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Linear Acceleration Sensor
+    Sensor: Type: android.sensor.linear_acceleration
+    Sensor: Vendor: AOSP
+    Sensor: Version: 3
+    Sensor: Power: 12.7
+    Sensor: Maximum Range: 19.6133
+    Sensor: Resolution: 2.480159E-4
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Rotation Vector Sensor
+    Sensor: Type: android.sensor.rotation_vector
+    Sensor: Vendor: AOSP
+    Sensor: Version: 3
+    Sensor: Power: 12.7
+    Sensor: Maximum Range: 1.0
+    Sensor: Resolution: 5.9604645E-8
+    Sensor: MinDelay: 10000
+    -------
+    Sensor: Name: Orientation Sensor
+    Sensor: Type: android.sensor.orientation
+	Sensor: Vendor: AOSP
+    Sensor: Version: 1
+    Sensor: Power: 12.7
+    Sensor: Maximum Range: 360.0
+    Sensor: Resolution: 0.00390625
+    Sensor: MinDelay: 10000
+    -------
