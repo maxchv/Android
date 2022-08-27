@@ -1,0 +1,20 @@
+Создать приложение в котором отображается список медиа файлов.
+
+Задание будет в дальнейшем применено в приложении "Музыкальный плеер".
+
+
+Для доступа ко всем аудио файлам воспользоваться контент провадером
+MediaStore.Audio (см. https://developer.android.com/reference/android/provider/MediaStore.Audio.Media.html)
+
+Для формирования плейлиста использовать можно следующие данные:
+	uri: 		MediaStore.Audio.Media.EXTERNAL_CONTENT_URI - для доступа к медиа файлам во внешнем хранилище
+	колонки:	_ID
+			ARTIST - исполнитель
+			ALBUM - альбом
+			TITLE - название
+			DATA - путь к файлу
+			DISPLAY_NAME - отображаемое имя
+			DURATION	- длительность воспроизведения
+
+Для преобразования пути в uri можно использовать статический метд класса MediaStore.Audio.Media:
+	static Uri getContentUriForPath(String path)

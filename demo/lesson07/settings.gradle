@@ -1,0 +1,3 @@
+include ':twopanelapp'
+include ':app'
+rootProject.name = "lesson07"
